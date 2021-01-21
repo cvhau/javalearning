@@ -1,8 +1,7 @@
-package org.cvhau.javalearning.pdf;
+package com.cvhau.javalearning.pdf;
 
 import com.itextpdf.html2pdf.ConverterProperties;
 import com.itextpdf.html2pdf.HtmlConverter;
-import com.itextpdf.layout.font.FontInfo;
 import com.itextpdf.layout.font.FontProvider;
 import com.itextpdf.layout.font.FontSet;
 import com.itextpdf.text.DocumentException;
