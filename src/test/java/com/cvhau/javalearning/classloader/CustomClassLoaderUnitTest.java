@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class CustomClassLoaderUnitTest {
     @Test
-    public void testCustomClassLoader() {
+    public void customClassLoader() {
         assertDoesNotThrow(() -> {
             CustomClassLoader customClassLoader = new CustomClassLoader();
             Class<?> cls = customClassLoader.findClass(PrintClassLoader.class.getName());
